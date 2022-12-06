@@ -28,6 +28,7 @@ body {
 }
 img {
     width: 100%;
+    
 }
 
 /*Navigation*/
@@ -93,11 +94,13 @@ nav {
 /*Header */
 .header__container {
     width: 100%;
-    max-width: 720px;
+    max-width: 1200px;
     margin: 0 auto;
     height: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: 32px;
+    
 }
 
 h1 {
@@ -112,26 +115,110 @@ h2 {
     margin-bottom: 32px;
 }
 
-input{
-    border-radius: 25px 0 0 25px;
+input {
+ 
+    border: 0;
+    border-radius: 9999px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  /* input:focus { */
+    
+  /* } */
+  
+  /* input::placeholder { */
+    
+  /* } */
+  
+  button {
+    
+    border: 0;
+    border-radius: 9999px;
+    background: #3c0d99;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  
+  .btn__submit {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+  }
+
+.header__row {
+display: flex;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
 }
-input[type="text"] {
-    width: 400px;
-    height: 90px;
-    padding-right: 50px;
-   
+.header__highlight {
+    padding: 0 24px;
+    width: calc(100%/2);
 }
 
-input[type="submit"] {
-    margin-left: -50px;
-    height: 25px;
-    width: 50px;
-    background: blue;
-    color: white;
-    border: 0;
-    -webkit-appearance: none;
+.header__img--wrapper {
+    padding: 20px;
 }
-/*Landing*/
+
+#landing {
+    height: 100vh;
+}
+/*FEATURES*/
+
+.features__container{
+    padding: 80px 0;
+
+}
+.features__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.features__description {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+
+}
+.service {
+    
+    display: flex;
+   
+    width: calc(100% / 3);
+    padding: 24px;
+    
+}
+
+.service_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.service__img{
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width:1px ;
+    padding: 1.25rem;
+    text-align: center;
+}
+.subtitle{
+    
+}
 /*Landing*/
 /*Landing*/
 /*Landing*/
