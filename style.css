@@ -114,6 +114,9 @@ h2 {
     font-size: 20px;
     margin-bottom: 32px;
 }
+h5 {
+    text-align: left;
+}
 
 input {
  
@@ -223,6 +226,8 @@ margin: 0 auto;
 
 .quality__container{
     height: 100vh;
+    margin:0 216px ;
+    padding: 96px 0;
 }
 .quality__row{
     width: 100%;
@@ -234,6 +239,7 @@ margin: 0 auto;
     width: 50%;
     display: flex;
     flex-direction: column;
+    padding: 0 32px;
 }
 
 .quality__example {
@@ -247,10 +253,13 @@ margin: 0 auto;
     flex-direction: column;
     align-items: center;
     font-size: 16px;
+    text-align: left;
 }
 .quality__description {
     font-size: 48px;
     margin-bottom: 24px;
+    margin-top: 16px;
+    text-align: left;
 }
 
 .quality__btn {
@@ -269,6 +278,8 @@ margin: 0 auto;
 
 .easy__container{
     height: 100vh;
+    margin:0 216px ;
+    padding: 96px 0;
 
 }
 .easy__row{
@@ -285,17 +296,23 @@ display: flex;
     align-items: center;
     font-size: 16px;
     width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
        
 }
 .easy__img{
     width: 50%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    height: auto;
+    vertical-align: middle;
+    padding: 96px 0;
 }
 
 .easy__description {
     font-size: 48px;
     margin-bottom: 24px;
+    margin-top: 16px;
 
 }
 
@@ -307,11 +324,15 @@ display: flex;
 }
 .easy__number {
     display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+
 
 }
 
 .easy__para {
-    padding: 24px;
+    margin-top: 12px;
+    padding: 0 20px;
     
 }
 
@@ -322,7 +343,11 @@ display: flex;
 
 .easy__one {
     color: gray;
-    font-size: 50px;
+    font-size: 2.25rem;
+}
+
+.easy__5{
+    text-align: left;
 }
 /*Landing*/
 /*Landing*/
