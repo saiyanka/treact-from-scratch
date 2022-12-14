@@ -349,5 +349,138 @@ display: flex;
 .easy__5{
     text-align: left;
 }
-/*Landing*/
+/*Plans*/
+.plan__container {
+    height: 100vh;
+}
+.plan__row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.plans{
+display: flex;
+flex-wrap: wrap;
+}
+.plan{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    position: relative;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    text-align: center;
+    max-width: 24rem;
+    
+}
+
+.plan__two {
+
+    
+}
+.plan__header {
+    margin-top: 2.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.plan__pricing{
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+.plan__head{
+    font-size: 3rem;
+    margin: 0px;
+    text-align: center;
+    letter-spacing: .025em;
+    width: 100%;
+
+}
+.plan__para{
+    font-size: 1.125rem;
+    margin: 0px;
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(113,128, 150);
+}
+.plan__1{
+    display: flex;
+    flex-direction: column;
+position: relative;
+padding-top: 2rem;
+padding-bottom: 2rem;
+line-height: 1.625;
+outline: rgb(66,153,225)solid 1px;
+}
+.plan__2{
+    margin-left: -2rem;
+    margin-right: -2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 2rem;
+
+}
+
+.plan__3{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding: 2rem 1rem;
+    outline: rgb(68,153 green,225 blue);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.name{
+font-size: 1.25rem;
+font-weight: 700;
+
+}
+.price{
+    font-size: 3rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    font-weight: 700;
+
+
+}
+.duration{
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: rgb(160,174,192);
+
+}
+.main__feature{
+    margin-top: 1.25rem;
+    font-weight: 500;
+    letter-spacing: .025em;
+
+
+}
+.feature{
+    margin-top: 1.25rem;
+    font-weight: 500;
+    --tw-text-opacity:1;
+    color: rgb(113,128, 150);
+
+}
+
+.plan__btn{
+    font-size: 100%;
+    color:rgb(66, 153, 225);
+
+    cursor: pointer;
+   display: flex;
+   justify-content: center;
+}
+
 /*Landing*/
